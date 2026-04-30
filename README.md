@@ -1,4 +1,4 @@
-# Suburbia Skate - Interactive Skateboard Experience
+# Suburbia Skate - Interactive Skateboard Experience 
 
 Welcome to the Suburbia Skate project! This is a modern, visually-rich, and interactive website for a fictional skateboard brand. The site is built using a cutting-edge tech stack to deliver a unique user experience, featuring 3D skateboard models, physics-based animations, and a headless CMS for content management.
 
