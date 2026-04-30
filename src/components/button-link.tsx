@@ -16,6 +16,9 @@ export function ButtonLink({
   className,
   ...props
 }: ButtonProps) {
+  const { prefetch, ...linkProps } = props
+  const normalizedPrefetch = prefetch === 'auto' ? null : prefetch
+
   return (
     <PrismicNextLink
       className={clsx(
@@ -30,7 +33,8 @@ export function ButtonLink({
         color === 'lime' && 'from-brand-lime to-brand-orange text-black',
         className
       )}
-      {...props}
+      prefetch={normalizedPrefetch}
+      {...linkProps}
     >
       {icon ? (
         <>
